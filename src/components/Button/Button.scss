@@ -1,0 +1,34 @@
+.card__btn {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  width: 8em;
+  height: 3em;
+  padding: 5px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  &:hover{
+    opacity: 0.8;
+    transition: opacity .3s;
+  }
+}
+
+.modal-win__btns {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.modal__btn{
+  width: 10em;
+  height: 3em;
+  margin: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.modal__btn:hover{
+  opacity: 0.8;
+}
